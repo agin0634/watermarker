@@ -766,36 +766,6 @@ background-color: rgb(98, 98, 115);</string>
                  </widget>
                 </item>
                 <item>
-                 <widget class="QPushButton" name="pushButton_13">
-                  <property name="minimumSize">
-                   <size>
-                    <width>35</width>
-                    <height>35</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>35</width>
-                    <height>35</height>
-                   </size>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>Yu Gothic UI</family>
-                    <pointsize>10</pointsize>
-                    <underline>true</underline>
-                   </font>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">color: rgb(220, 220, 220);
-background-color: rgb(98, 98, 115);</string>
-                  </property>
-                  <property name="text">
-                   <string>U</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
                  <widget class="QPushButton" name="pushButton_14">
                   <property name="minimumSize">
                    <size>
