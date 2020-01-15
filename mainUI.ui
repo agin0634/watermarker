@@ -56,11 +56,19 @@
               <height>50</height>
              </size>
             </property>
+            <property name="font">
+             <font>
+              <family>Yu Gothic</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">background-color: rgb(249, 201, 91);</string>
             </property>
             <property name="text">
-             <string>開啟檔案</string>
+             <string>新增圖片</string>
             </property>
            </widget>
           </item>
@@ -72,11 +80,19 @@
               <height>50</height>
              </size>
             </property>
+            <property name="font">
+             <font>
+              <family>Yu Gothic UI</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">background-color: rgb(249, 201, 91);</string>
             </property>
             <property name="text">
-             <string>另存新檔</string>
+             <string>另存圖片</string>
             </property>
            </widget>
           </item>
@@ -145,6 +161,14 @@
                 <height>35</height>
                </size>
               </property>
+              <property name="font">
+               <font>
+                <family>Yu Gothic UI</family>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
               <property name="styleSheet">
                <string notr="true">background-color: rgb(249, 201, 91);</string>
               </property>
@@ -160,6 +184,14 @@
                 <width>35</width>
                 <height>35</height>
                </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Yu Gothic UI</family>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
               </property>
               <property name="styleSheet">
                <string notr="true">background-color: rgb(249, 201, 91);</string>
@@ -177,6 +209,14 @@
                 <height>35</height>
                </size>
               </property>
+              <property name="font">
+               <font>
+                <family>Yu Gothic UI</family>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
               <property name="styleSheet">
                <string notr="true">background-color: rgb(249, 201, 91);</string>
               </property>
@@ -192,6 +232,14 @@
                 <width>35</width>
                 <height>35</height>
                </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Yu Gothic UI</family>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
               </property>
               <property name="styleSheet">
                <string notr="true">background-color: rgb(249, 201, 91);</string>
@@ -209,6 +257,14 @@
                 <height>35</height>
                </size>
               </property>
+              <property name="font">
+               <font>
+                <family>Yu Gothic UI</family>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
               <property name="styleSheet">
                <string notr="true">background-color: rgb(249, 201, 91);</string>
               </property>
@@ -224,6 +280,14 @@
                 <width>35</width>
                 <height>35</height>
                </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Yu Gothic UI</family>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
               </property>
               <property name="styleSheet">
                <string notr="true">background-color: rgb(249, 201, 91);</string>
@@ -241,6 +305,14 @@
                 <height>35</height>
                </size>
               </property>
+              <property name="font">
+               <font>
+                <family>Yu Gothic UI</family>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
               <property name="styleSheet">
                <string notr="true">background-color: rgb(249, 201, 91);</string>
               </property>
@@ -257,6 +329,14 @@
                 <height>35</height>
                </size>
               </property>
+              <property name="font">
+               <font>
+                <family>Yu Gothic UI</family>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
               <property name="styleSheet">
                <string notr="true">background-color: rgb(249, 201, 91);</string>
               </property>
@@ -272,6 +352,14 @@
                 <width>35</width>
                 <height>35</height>
                </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Yu Gothic UI</family>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
               </property>
               <property name="styleSheet">
                <string notr="true">background-color: rgb(249, 201, 91);</string>
@@ -345,7 +433,7 @@
                <property name="font">
                 <font>
                  <family>Yu Gothic UI</family>
-                 <pointsize>10</pointsize>
+                 <pointsize>12</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
                 </font>
@@ -366,9 +454,21 @@
                  <height>0</height>
                 </size>
                </property>
+               <property name="font">
+                <font>
+                 <family>Yu Gothic UI</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
                <property name="styleSheet">
                 <string notr="true">color: rgb(220, 220, 220);
 background-color: rgb(98, 98, 115);</string>
+               </property>
+               <property name="minimum">
+                <number>-250</number>
+               </property>
+               <property name="maximum">
+                <number>250</number>
                </property>
               </widget>
              </item>
@@ -389,7 +489,7 @@ background-color: rgb(98, 98, 115);</string>
                <property name="font">
                 <font>
                  <family>Yu Gothic UI</family>
-                 <pointsize>10</pointsize>
+                 <pointsize>12</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
                 </font>
@@ -410,9 +510,21 @@ background-color: rgb(98, 98, 115);</string>
                  <height>0</height>
                 </size>
                </property>
+               <property name="font">
+                <font>
+                 <family>Yu Gothic UI</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
                <property name="styleSheet">
                 <string notr="true">color: rgb(220, 220, 220);
 background-color: rgb(98, 98, 115);</string>
+               </property>
+               <property name="minimum">
+                <number>-250</number>
+               </property>
+               <property name="maximum">
+                <number>250</number>
                </property>
               </widget>
              </item>
@@ -433,7 +545,7 @@ background-color: rgb(98, 98, 115);</string>
                <property name="font">
                 <font>
                  <family>Yu Gothic UI</family>
-                 <pointsize>10</pointsize>
+                 <pointsize>12</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
                 </font>
@@ -454,9 +566,21 @@ background-color: rgb(98, 98, 115);</string>
                  <height>0</height>
                 </size>
                </property>
+               <property name="font">
+                <font>
+                 <family>Yu Gothic UI</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
                <property name="styleSheet">
                 <string notr="true">color: rgb(220, 220, 220);
 background-color: rgb(98, 98, 115);</string>
+               </property>
+               <property name="minimum">
+                <number>-250</number>
+               </property>
+               <property name="maximum">
+                <number>250</number>
                </property>
               </widget>
              </item>
@@ -477,7 +601,7 @@ background-color: rgb(98, 98, 115);</string>
                <property name="font">
                 <font>
                  <family>Yu Gothic UI</family>
-                 <pointsize>10</pointsize>
+                 <pointsize>12</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
                 </font>
@@ -498,9 +622,21 @@ background-color: rgb(98, 98, 115);</string>
                  <height>0</height>
                 </size>
                </property>
+               <property name="font">
+                <font>
+                 <family>Yu Gothic UI</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
                <property name="styleSheet">
                 <string notr="true">color: rgb(220, 220, 220);
 background-color: rgb(98, 98, 115);</string>
+               </property>
+               <property name="minimum">
+                <number>-250</number>
+               </property>
+               <property name="maximum">
+                <number>250</number>
                </property>
               </widget>
              </item>
@@ -551,6 +687,14 @@ background-color: rgb(98, 98, 115);</string>
                     <height>25</height>
                    </size>
                   </property>
+                  <property name="font">
+                   <font>
+                    <family>Yu Gothic UI</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
                   <property name="styleSheet">
                    <string notr="true">color: rgb(220, 220, 220);
 background-color: rgb(98, 98, 115);</string>
@@ -567,11 +711,15 @@ background-color: rgb(98, 98, 115);</string>
                   </property>
                   <property name="font">
                    <font>
-                    <pointsize>10</pointsize>
+                    <family>Yu Gothic UI</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
                    </font>
                   </property>
                   <property name="styleSheet">
                    <string notr="true">color: rgb(220, 220, 220);
+alternate-background-color: rgb(98, 98, 115);
 background-color: rgb(98, 98, 115);</string>
                   </property>
                   <property name="currentText">
@@ -863,6 +1011,14 @@ background-color: rgb(98, 98, 115);</string>
            <width>100</width>
            <height>16777215</height>
           </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
          </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(249, 201, 91);</string>
